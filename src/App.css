@@ -1,33 +1,131 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .flex{
+    display: flex;
+  flex-wrap: wrap;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  
+  .cover-page {
+    height: 100vh;
+
   }
+  .navDark {
+    background: rgba(3, 118, 126, 0.671);
+  }
+  
+  .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  
+  .subComponent {
+    padding: 50px 0px;
+  }
+  
+  .subComponent-lg {
+    padding: 80px 0px;
+  }
+
+  #headerbg {
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  #headerbg h1 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+  }
+ 
+  .wrapped-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.212);
+  }
+
+  .item-center {
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    margin: 10px 0px;
+  }
+  
+  @media (min-width: 284px) {
+    .card-columns {
+      margin: 0px 20px;
+    }
+    .tour-msg {
+      margin: 0px 10px;
+    }
+  }
+  @media (min-width: 576px) {
+    .card-columns {
+      -webkit-column-count: 2 !important;
+      -moz-column-count: 2 !important;
+      column-count: 2 !important;
+    }
+  
+  }
+  @media (min-width: 986px) {
+    .card-columns {
+      -webkit-column-count: 3 !important;
+      -moz-column-count: 3 !important;
+      column-count: 3 !important;
+    }
+  }
+
+  footer {
+    margin: 0%;
+  }
+  footer p {
+    margin: auto;
+    color: whitesmoke;
+  }
+
+  * {
+    transition-duration: 0.3s;
+  }
+
+  .links{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar>.links{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .row{
+    margin: auto;
+    justify-content: center;
+  }
+
+  .jumbotron{
+    background-color:whitesmoke;
+  }
+ 
+
+  .EventE {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px; 
+    border: 1px solid rgba(14, 139, 148, 0.116);
+    box-shadow: 0 3px 8px 0 rgba(14, 139, 148, 0.116); 
 }
+
+.EventE:hover {
+    background-color:rgba(14, 139, 148, 0.116);
+    cursor: pointer;
+}
+
+

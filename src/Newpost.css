@@ -1,0 +1,32 @@
+.base-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  label {
+    font-size: 20px;
+    color: black;
+  }
+  ​
+  input {
+    min-width: 18em;
+    height: 37px;
+    font-family: "Open Sans", sans-serif;
+  }
+  ​
+
+  .fonty{
+    color: rgba(0, 174, 157, 0.918);
+    font-family: "Courier New", Courier, monospace;
+  
+  }
+  .form-control{
+    display: inline;
+  }
+  .btn-info{
+    width: 100%;
+    font-size: 20px;
+  }
