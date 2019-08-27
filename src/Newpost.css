@@ -19,7 +19,7 @@
   ​
 
   .fonty{
-    color: rgba(0, 174, 157, 0.918);
+    color:rgba(3, 118, 126, 0.671);
     font-family: "Courier New", Courier, monospace;
   
   }
@@ -29,4 +29,19 @@
   .btn-info{
     width: 100%;
     font-size: 20px;
+  }
+
+  .jumbotron{
+    background-color:whitesmoke;
+  }
+
+  .btn-info{
+    background-color: rgba(3, 118, 126, 0.671);
+    border-color: rgba(3, 118, 126, 0.671);
+  }
+  .Forma{
+    border-radius: 5px; 
+    border: 1px solid rgba(14, 139, 148, 0.116);
+    box-shadow: 0 3px 8px 0 rgba(14, 139, 148, 0.116); 
+    padding: 10px;
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import { Button, Jumbotron,Form, FormGroup, Label, Input, FormText} from "reactstrap";
+import { Button, Jumbotron,Form, FormGroup, Label, Input,} from "reactstrap";
 import { withRouter } from 'react-router-dom';
 import './Newpost.css';
 
@@ -49,7 +49,7 @@ class PostForm extends Component {
                  <header className= "fonty">
                     <h3>Add An Event </h3>
                 </header> 
-                <Form onSubmit={this.submitHandler}>
+                <Form className= "Forma" onSubmit={this.submitHandler}>
                     <FormGroup>
                     <Label for="EventTitle">Event Title</Label>
                     <Input
