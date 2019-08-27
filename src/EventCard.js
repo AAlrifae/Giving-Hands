@@ -34,17 +34,33 @@ class EventCard extends Component {
     axios.get('https://cors-anywhere.herokuapp.com/https://eventy-api.herokuapp.com/events.json')
     .then(res => {
         console.log(res.data);
-        this.setState({events: res.data})
+        function sortNumber(a, b) {
+          return a.id - b.id;
+        }
+        
+        var numArray = res.data;
+
+        numArray.sort(sortNumber);
+        
+        console.log(numArray);
+        // var seta = res.data.map((event, index) => {
+            
+            
+        // })
+        this.setState({events: numArray})
          
     })
     .catch(err => {
         console.log(err)
     })
+
+
+
 }
 change =(num)=>{
   this.setState({
     i : 1 ,
-    id : num
+    id : num 
   })
 }
 back = ()=>{
@@ -56,7 +72,7 @@ back = ()=>{
 
 }
   render() {
-      
+      console.log(this.state.events)
   
     let api = <CardsList events={this.state.events} getEvent={this.getOneEvent}  change = {this.change} />
     let api2 =  <EventName getEvent={()=>this.getOneEvent()} id={this.state.id} getList={()=>this.componentDidMount()}  events={this.state.events} back ={this.back} />
