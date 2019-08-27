@@ -44,7 +44,6 @@ componentDidMount (){
 
   render(){
       return(
-  
         <div>
         <main style = {{backgroundImage: `url(${this.state.img[this.state.i]})`}}  className="cover-page" id="headerbg">
           <section className="wrapped-page">

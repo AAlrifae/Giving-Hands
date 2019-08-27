@@ -1,0 +1,118 @@
+
+
+  .wrapped-page {
+    width: 100%;
+    height: 100vh;
+    margin:auto;
+    background: rgba(0, 0, 0, 0.082);
+  }
+
+.base-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+label {
+    font-size: 20px;
+    color: rgb(13, 144, 153);
+    margin-bottom: auto;
+  }
+  ​
+  input {
+    height: 37px;
+    border-color: 1px solid rgba(13, 144, 153);
+  }
+ 
+  
+  .btn-info{
+    /* width: 100%; */
+    font-size: 20px;
+    background-color: rgba(3, 118, 126, 0.671);
+    border-color: rgba(3, 118, 126, 0.671);
+  }
+
+  .Forma{
+    border-radius: 5px; 
+    border: .5px solid rgb(139, 187, 190);
+    box-shadow: 0 3px 8px 0 rgb(192, 192, 192); 
+    padding: 10px;
+    background-color:whitesmoke;
+  }
+  
+  #Signinbg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('./images/signin.png');
+  }
+
+  #Signinbg h2 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align:center;
+    color: grey;
+  }
+
+  #Signinbg h4 {
+    color: grey;
+    margin-bottom: 15px;
+  }
+
+  #Signinbg p {
+    color: rgb(175, 175, 175);
+  }
+ 
+ .Signin{
+   margin-left: auto;
+   margin-right: 140px;
+   margin-bottom: auto;
+   margin-top: auto;   
+ }
+
+ #Signupbg {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('./images/signup.png');
+  color: white;
+}
+
+#Signupbg h2 {
+  font-weight: bold; 
+  text-align:center;
+  color: grey;
+}
+
+#Signupbg h4 {
+  color: grey;
+  margin-bottom: 15px;
+}
+
+#Signupbg p {
+  color: rgb(175, 175, 175);
+  margin-bottom: auto;
+}
+
+.Signup{
+    margin-left:140px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 85px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.form-group{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    display: block;
+  }
+
+select{
+    margin-right: 12px;
+}
