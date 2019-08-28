@@ -138,7 +138,7 @@ class PostForm extends Component {
                     <option selected="true" disabled="disabled">Choose Volunteer/s Gender</option>
                     <option value='Male'>Male Only</option>
                     <option value='Famale'>Famale Only </option>
-                    <option value='MixedGender'>Mixed Gender</option>
+                    <option value='Mixed Gender'>Mixed Gender</option>
                     </Input>
                 </FormGroup>
 
@@ -149,8 +149,8 @@ class PostForm extends Component {
                     <option value='Children'> Children</option>
                     <option value='Teenagers'>Teenagers</option>
                     <option value='Adults'>Adults</option>
-                    <option value='AdultsandTeenagers'>Adults and Teenagers</option>
-                    <option value='AdultsandTeenagers'>Family</option>
+                    <option value='Adults and Teenagers'>Adults and Teenagers</option>
+                    <option value='Adults and Teenagers'>Family</option>
                     </Input>
                 </FormGroup>
 
