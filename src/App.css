@@ -2,7 +2,6 @@
   .flex{
     display: flex;
     flex-wrap: wrap;
-  
   }
 
   .cover-page {
@@ -28,7 +27,7 @@
   #headerbg {
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    color: rgba(255, 255, 255, 0.534);
   }
 
   #headerbg h1 {
@@ -44,7 +43,8 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    background: rgba(0, 0, 0, 0.212);
+    background: rgba(0, 0, 0, 0.596);
+  
   }
 
   .item-center {
@@ -117,9 +117,9 @@
     width: 30%;
     margin: 10px;
     text-align: center;
-    border-radius: 5px; 
-    border: 1px solid rgba(14, 139, 148, 0.116);
-    box-shadow: 0 3px 8px 0 rgba(14, 139, 148, 0.116); 
+    border: .5px solid rgb(139, 187, 190);
+    box-shadow: 0 3px 8px 0 rgb(192, 192, 192); 
+    background-color:whitesmoke;
 }
 
 .EventE:hover {

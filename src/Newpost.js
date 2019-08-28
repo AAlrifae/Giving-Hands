@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import { Button, Jumbotron,Form, FormGroup, Label, Input,} from "reactstrap";
+import { Button, Jumbotron,Form, FormGroup, Label, Input, Row, Col} from "reactstrap";
 import { withRouter } from 'react-router-dom';
 import './Newpost.css';
 
@@ -45,10 +45,10 @@ class PostForm extends Component {
 
         return (
 
+           
             <Jumbotron className="base-container" > 
-                 <header className= "fonty">
-                    <h3>Add An Event </h3>
-                </header> 
+                <Row>
+                    
                 <Form className= "Forma" onSubmit={this.submitHandler}>
                     <FormGroup>
                     <Label for="EventTitle">Event Title</Label>
@@ -166,7 +166,12 @@ class PostForm extends Component {
 
                 <Button color="info" type="submit"> Submit </Button>
                 </Form>
-            </Jumbotron> 
+                    <header className= "fonty">
+                        <h3>Volunteer/s Needed </h3>
+                    </header>   
+                </Row>
+            </Jumbotron>
+ 
       );
     }
 }

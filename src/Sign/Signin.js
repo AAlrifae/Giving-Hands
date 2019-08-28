@@ -13,6 +13,7 @@ import './Sign.css';
             }
         }
     }
+
     changeHandler  = (event) => {
         let newUser = {...this.state.user}
         newUser[event.target.name] = event.target.value
@@ -20,6 +21,7 @@ import './Sign.css';
        
         console.log(this.state);    
     }
+
     submitHandler = (event) => {
         event.preventDefault()
         console.log(this.state)
@@ -35,6 +37,7 @@ import './Sign.css';
         alert("Thank You For Registeration ")
         this.props.history.push('/');
     }
+    
     render() {
         
         const {email, password} = this.state

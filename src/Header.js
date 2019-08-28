@@ -51,6 +51,7 @@ componentDidMount (){
               <h1>Giving Hands</h1>
               <br></br>
               <h3>Alone We can do little; Together we can do so Much. - Helen Keller </h3>
+              <input className="form-control" type="text" placeholder="Volenteer" aria-label="Search" />
             </div>
           </section>
         </main>

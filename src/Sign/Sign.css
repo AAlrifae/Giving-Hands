@@ -1,5 +1,4 @@
 
-
   .wrapped-page {
     width: 100%;
     height: 100vh;
@@ -44,7 +43,7 @@ label {
   #Signinbg {
     background-size: cover;
     background-attachment: fixed;
-    background-image: url('./images/signin.png');
+    background-image: url('../images/signin.png');
   }
 
   #Signinbg h2 {
@@ -73,7 +72,7 @@ label {
  #Signupbg {
   background-size: cover;
   background-attachment: fixed;
-  background-image: url('./images/signup.png');
+  background-image: url('../images/signup.png');
   color: white;
 }
 

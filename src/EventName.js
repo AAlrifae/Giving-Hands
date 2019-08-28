@@ -42,16 +42,17 @@ class EventName extends Component {
                     </Row>
                   </Row>
                     <hr/>
-                    <p>Event Type: {this.state.event.eventCategory}</p>
-                    <p> Event Start on: {this.state.event.startDate}</p>
-                    <p> Event End on: {this.state.event.endDate}</p> 
-                    <p> Event City: {this.state.event.eventLocation}</p>
-                    <p> Event Description: {this.state.event.summary}</p>
+                    <h5><strong> Event Information</strong></h5>
+                    <p> <strong>Event Type: </strong> {this.state.event.eventCategory}</p>
+                    <p> <strong> Event Start on: </strong> {this.state.event.startDate}</p>
+                    <p> <strong> Event End on: </strong> {this.state.event.endDate}</p> 
+                    <p> <strong>Event City: </strong> {this.state.event.eventLocation}</p>
+                    <p> <strong> Event Description: </strong> {this.state.event.summary}</p>
                     <hr/>
-                    <h5>Volunteer Needed</h5>
-                    <p>Volunteer Category: {this.state.event.volunteerCategory}</p>
-                    <p>Volunteer Number: {this.state.event.numberOfVolunteer}</p>
-                    <p>Volunteer Gender: {this.state.event.conditions}</p>
+                    <h5><strong>Volunteer/s  Needed </strong></h5>
+                    <p><strong> Volunteer Category: </strong> {this.state.event.volunteerCategory}</p>
+                    <p><strong> Volunteer Number: </strong> {this.state.event.numberOfVolunteer} Volunteer/s needed</p>
+                    <p><strong> Volunteer Gender: </strong> {this.state.event.conditions}</p>
                 </Col>
             </Row>
           </Jumbotron>

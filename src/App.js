@@ -4,9 +4,9 @@ import './App.css';
 import Home from './Home';
 import { Route, Switch, BrowserRouter, Link} from 'react-router-dom';
 import Newpost from './Newpost';
-import  Signup  from './Signup'
+import  Signup  from './Sign/Signup'
 import EventCard from './EventCard';
-import Signin from './Signin';
+import Signin from './Sign/Signin';
 
 function App() {
   return (
